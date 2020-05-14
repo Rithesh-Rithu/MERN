@@ -82,7 +82,7 @@ const StripeCheckout = ({products, setReload = f => f, reload = undefined}) => {
 
     return (
         <div>
-            <h3 className="text-white">Stripe Checkout loaded: {getFinalPrice()}</h3>
+            <h3 className="text-white">Stripe Checkout loaded: $ {getFinalPrice()}</h3>
             {products.length > 0 ? (
                     showStripeButton()
                 ) : (
