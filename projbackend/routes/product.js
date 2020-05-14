@@ -8,7 +8,7 @@ const {getUserById} = require("../controllers/user");
 
 //ALL OF PARAMS
 router.param("userId", getUserById);
-router.param("product", getProductById);
+router.param("productId", getProductById);
 
 
 //ALL OF ACTUAL ROUTES
